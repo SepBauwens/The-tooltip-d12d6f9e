@@ -1,0 +1,18 @@
+div.icon{
+	position: absolute;
+	top: 10px; left: 900px;
+}
+div.tooltip-content{
+	position: absolute;
+	top: 80px;
+	background-color: black;
+	padding: 10px;
+	display: none;
+	width: 25%;
+	color: white;
+}
+
+div.icon:hover + div.tooltip-content {
+	display: block;
+	visibility: visible;
+}
